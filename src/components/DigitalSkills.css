@@ -1,0 +1,56 @@
+.ds1 {
+    display:flex;
+    flex-direction: column;
+    padding: 1%;
+}
+
+.dsHeading {
+    font-family: 'Nunito';
+    color: #6C6C6C;
+    font-size: 25px;
+    text-align: center;
+}
+
+.ds2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 300px;
+    width: 1270px;
+    position: relative;
+    left: 230px;
+}
+
+.dsCard {
+    position:relative;
+    flex-direction: row;
+    top: 40px;
+    left: 0;
+}
+
+.dsCardText {
+    font-family: "Nunito";
+    font-size: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    top: 110px;
+    left: 20%;
+}
+
+.photoCard {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 290px;
+    max-height: 290px;
+    opacity: 85%;
+}
+
+.iconOverlay {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    max-width: 90px;
+    max-height: 90px;
+}

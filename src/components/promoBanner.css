@@ -1,0 +1,39 @@
+.promoBanner {
+    background-image: url('../homepageIMG/promoBannerIMGs/babyBanner.png');
+    background-size: 1920px 400px;
+    height: 400px;
+}
+
+.promoText {
+    font-family: 'Nunito', sans-serif;
+    width: 588px;
+    padding: 2rem;
+}
+
+.promoText div {
+    color: #767676;
+    font-size: 40px;
+}
+
+
+.promoText p {
+    font-family: 'Open Sans';
+    color: #767676;
+    font-size: 24px;
+}
+
+.subtext {
+    color: #707070;
+    font-size: 11px;
+    margin-top: 0;
+}
+
+.buttonDiv {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.button2Div {
+    width: 200px;
+}
