@@ -13,20 +13,15 @@ export default function BottomPromo({ setDialogOpen}) {
     return (
         <Container maxWidth="xl">
             <div className="bottomPromo">
-                <div>
-                    <img className="bottomPromoPic" src={bottomPromoCard} alt="" />
-                    <div className="bottomPromoText">
-                        <h2>What are you waiting for?</h2>
-                        <br/><br/><h3>Start teaching Digital Technologies today.</h3>
-                        <br/><br/><p>If you need more information, we are happy to answer any questions you may have.</p>
-
-                        <div className="bottomPromoButtons">
-                            <Button style={{ width: "200px" }}> <img src={EnquireNow}  style={{ height: "45px" }} />
-                            </Button>
-                            <Button onClick={() => setDialogOpen(true)} style={{ width: "200px" }} src={Login}> <img src={SignUp} style={{ height: "45px" }} />
-                            </Button>
-                        </div>
-                        
+                <img className="bottomPromoPic" src={bottomPromoCard} alt="" />
+                <div className="bottomPromoText">
+                    <h2>What are you waiting for?</h2>
+                    <h3>Start teaching Digital Technologies today.</h3><br/>
+                    <p>If you need more information, we are happy to answer any questions you may have.</p>
+                    <br/><br/><br/>
+                    <div className="bottomPromoButtons">
+                        <Button style={{ width: "200px" }}> <img src={EnquireNow}  style={{ height: "45px" }} /></Button>
+                        <Button onClick={() => setDialogOpen(true)} style={{ width: "200px" }} src={Login}> <img src={SignUp} style={{ height: "45px" }} /></Button>
                     </div>
                 </div>
             </div>

@@ -16,7 +16,7 @@ export default function PromoBanner({ setDialogOpen}) {
                 <div className="promoBanner">
                     <div className="promoText">
                         <div>Prepare young minds <br/> for a better <span style={{color: '#42C0F6'}}>future.</span></div>
-                        <p>Let us help you advance students in Digital Technologies and other learning areas with our project-based learning programme.</p>
+                        <p>Let us help you advance students in Digital Technologies and other learning areas with <br/> our project-based learning programme.</p>
                         
                         <div className="buttonDiv">
                             <Button style={{ width: "200px" }}> <img src={LearnM}  style={{ height: "45px" }} />

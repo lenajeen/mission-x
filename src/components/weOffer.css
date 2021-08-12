@@ -29,7 +29,8 @@
 }
 
 .weOfferText h2 {
-    font: 'Nunito';
+    font: 'Open Sans';
+    font-size: 35px;
     letter-spacing: 0.84px;
     color: #6C6C6C;
     opacity: 1;
@@ -49,7 +50,8 @@
     left: 270px;
     height: 41px;
     text-align: left;
-    font: normal normal bold 30px/11px Nunito;
+    font: normal normal bold 30px/11px 'Open Sans';
+    font-size: 25px;
     letter-spacing: 0.6px;
     color: #6C6C6C;
     opacity: 1;

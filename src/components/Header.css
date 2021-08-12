@@ -33,6 +33,11 @@
 
 .flags {
     cursor: pointer;
+    padding: 5em;
+}
+
+.flags p {
+    margin: 0;
 }
 
 .avatar {

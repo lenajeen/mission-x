@@ -10,7 +10,7 @@ export default function ProgrammeText() {
     return (
         <Container maxWidth="xl">
             <div className="ptHeading">
-                <h2>How our programmes helps teachers and schools</h2>
+                <h2 className="ptH1">How our programmes helps teachers and schools</h2>
                 <br/>
                 <div>
                     <Button style={{ width: "350px" }}>

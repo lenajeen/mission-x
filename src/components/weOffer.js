@@ -38,46 +38,46 @@ export default function WeOffer() {
     return (
         <Container maxWidth="xl">
             <div className="weOffer" value={changeScreen}>
-
                 <div className="left">
                     <div className="weOfferText">
                         <h2>What we offer</h2>
                         <p>The Creative Problem Solving programme is series of digital creation aimed to encourage
                             self-motvion and student agency, designed by New Zealand's leading import PropTypes from 'prop-types'
                             industry experts and schools.</p>
-
+                        
                         <h3>What will students create?</h3>
                     </div>
-                    <br />
 
                     <div className="weOfferButtons" >
-
                         <div className="weOfferCard" >
-                            <div> <Button value ="b1" style={{ padding: "0", display: 'inline-block', margin: '0' }}  onClick={handleChange}>
+                            <div><Button value ="b1" style={{ padding: "0", display: 'inline-block', margin: '0' }}  onClick={handleChange}>
                                 <img className="overlay" src={animationOverlay}  />
-                                <p>ANIMATION</p></Button></div>
+                                <p>ANIMATION</p></Button>
+                            </div>
                         </div>
+
                         <div className="weOfferCard" value="b2">
-                            <div> <Button value="b2" style={{ padding: "0", display: 'inline-block' }}  onClick={handleChange}>
+                            <div><Button value="b2" style={{ padding: "0", display: 'inline-block' }}  onClick={handleChange}>
                                 <img className="overlay" src={gamesOverlay} />
-                                <p>GAMES</p></Button></div>
+                                <p>GAMES</p></Button>
+                            </div>
                         </div>
+                        
                         <div className="weOfferCard" value='b3'>
                             <Button value="b3" style={{ padding: "0", display: 'block' }} onClick={handleChange}>
                                 <img className="overlay" src={chatbotOverlay} value="b3" />
                                 <p value='b3'>CHATBOTS</p></Button>
                         </div>
-                        <div className="weOfferCard" value='b4'>
-                            <Button
-                                style={{ padding: "0", display: 'block' }} 
-                                onClick={handleChange}
-                                value='b4'>
-                                <img className="overlay" src={augmentedReality} />
-                                <p>AUGMENTED REALITY</p></Button>
-                        </div>
 
+                        <div className="weOfferCard" value='b4'>
+                            <Button style={{ padding: "0", display: 'block' }} 
+                                onClick={handleChange} value='b4'>
+                                    <img className="overlay" src={augmentedReality} />
+                                    <p>AUGMENTED REALITY</p></Button>
+                        </div>
                     </div>
                 </div>
+
                 <div className="weOfferPic">
                     <p2>{image}</p2>
                     <div className="radioButtons">
@@ -88,7 +88,6 @@ export default function WeOffer() {
                     </div>
                     <br />
                 </div>
-
             </div>
         </Container>
     )

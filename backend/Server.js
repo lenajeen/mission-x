@@ -40,4 +40,16 @@ app.post('/login', (req, res) => {
   })
 })
 
+app.post('/signup', (req,res) => {
+  db.query("INSERT INTO users SET ?", {first_name: req.body.firstname, last_name: req.body.lastname, email: req.body.email, password: req.body.password},
+  function(err,result) {
+    if (err) {
+      console.log(err)
+    } else {
+      console.log("signup successful")
+      res.sendStatus(205)
+    }
+  })
+})
+
 app.listen(4000)

@@ -1,6 +1,10 @@
 .ptHeading {
     font-family: 'Nunito';
-    font-size: 25px;
+    font-size: 23px;
     text-align: center;
     color: #6C6C6C;
+}
+
+.ptH1 {
+    margin-right: 10%;
 }

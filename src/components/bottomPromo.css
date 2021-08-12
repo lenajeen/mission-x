@@ -1,13 +1,14 @@
 .bottomPromoPic {
     display: flex;
-    width: 600px;
+    width: 625px;
+    height: 417px;
 }
 
 .bottomPromoText h2 {
     display: flex;
     flex-direction: column;
-
-    font: normal normal bold 42px/11px 'Nunito';
+    font-size: 35px;
+    font-family: 'Open Sans';
     letter-spacing: 0.84px;
     color: #6C6C6C;
     opacity: 1;
@@ -15,11 +16,22 @@
 
 .bottomPromo {
     display: flex;
-    flex-direction: column;
 }
 
 .bottomPromoText {
     display: flex;
     flex-direction: column;
+    padding: 3em;
 }
 
+.bottomPromoText h3 {
+    font-family: 'Open Sans';
+    font-size: 25px;
+    color: #6C6C6C;
+}
+
+.bottomPromoText p {
+    color: #6C6C6C;
+    font: 'Open Sans';
+    font-size: 17px;
+}

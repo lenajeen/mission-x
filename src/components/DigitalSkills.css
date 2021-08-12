@@ -7,8 +7,8 @@
 .dsHeading {
     font-family: 'Nunito';
     color: #6C6C6C;
-    font-size: 25px;
-    text-align: center;
+    font-size: 23px;
+    margin-left: 130px;
 }
 
 .ds2 {
@@ -18,14 +18,12 @@
     height: 300px;
     width: 1270px;
     position: relative;
-    left: 230px;
 }
 
 .dsCard {
     position:relative;
     flex-direction: row;
     top: 40px;
-    left: 0;
 }
 
 .dsCardText {
